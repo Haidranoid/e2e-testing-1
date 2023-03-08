@@ -1,0 +1,16 @@
+{
+  "name": "e2e-testing-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "CYPRESS_INSTALL_BINARY=https://artifactory.global.dish.com/artifactory/libs-release-local/cypress/3.1.5/win64/cypress.zip npm install -D cypress@3.1.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.1.5"
+  }
+}
